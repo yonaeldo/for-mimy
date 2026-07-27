@@ -816,3 +816,6 @@ button:focus {
         font-size:2rem;
     }
 }
+p {
+  text-align: center;
+}
