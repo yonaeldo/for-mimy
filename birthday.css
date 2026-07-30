@@ -819,3 +819,24 @@ button:focus {
 .pp {
   text-align: center;
 }
+.counter-section{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.counter-section h2{
+    color:white;
+    margin-bottom:20px;
+}
+
+#daysTogether{
+    font-size:4rem;
+    font-weight:bold;
+    color:white;
+    margin:20px 0;
+}
+
+.counter-section p{
+    color:white;
+    font-size:1.2rem;
+}
