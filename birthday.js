@@ -203,3 +203,30 @@ blowButton.addEventListener("click", () => {
     .style.display = "block";
 
 });
+
+// ========================================
+// DAYS TOGETHER COUNTER ❤️
+// ========================================
+
+// Format: YYYY-MM-DD
+const startDate = new Date("2026-03-13");
+
+function updateDayCounter() {
+
+    const now = new Date();
+
+    const difference = now - startDate;
+
+    const days = Math.floor(
+        difference / (1000 * 60 * 60 * 24)
+    );
+
+    document.getElementById("daysTogether").innerHTML =
+        days + " Days ❤️";
+}
+
+// Run when page loads
+updateDayCounter();
+
+// Update every minute
+setInterval(updateDayCounter, 60000);
